@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+
+:root {
+  --background: #fafafa;
+  --foreground: black;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+.walton
+{
+  font-family: 'Walton', sans-serif;
+  font-size: 35px;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+  margin: 1.5vh auto;
+  padding: 1rem 2rem;
+  background-color: black;
+  border-radius: 9999px; /* Full pill shape */
+  text-align: center;
+  width: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-title {
+  color: white;
+  font-family: 'Walton', sans-serif !important;
+  font-size: 30px;
+  font-weight: bold;
+}
+button
+{
+  cursor: pointer;
+}
+
+.submit-button
+{
+  width: fit-content;
+  padding: 1vh 2vw;
+  border-radius: 30px;
+  margin: auto !important;
+}
+.tabs-nav
+{
+   overflow-x: scroll;
+}
